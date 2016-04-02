@@ -26,7 +26,7 @@ body {
 
 @media only screen and (min-width: 480px) {
     body {
-        background-image: url('/ss/web/img/bg-lg.jpg');
+        background-image: url('/ctour/web/img/bg-lg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -162,7 +162,7 @@ a.desc:after {
 }
 
 .main-section{
-    background-color: rgba(225,225,255,0.7);
+    background-color: rgba(225,225,255,0.95);
     min-height: 100%;
 }
 
@@ -269,5 +269,22 @@ a.desc:after {
 .main-section .nav-submit a .btn .btn-primary{
     margin: 0 auto;
 }
+}
+
+#vk_comments,
+#vk_comments iframe {
+    width: 100% !important;
+}
+
+@media only screen and (min-width: 770px) {
+    .tour-container {
+        min-height: 55px;
+    }
+}
+
+@media only screen and (max-height: 750px) {
+    .site-index{
+        width: 100%;
+    }
 }
 

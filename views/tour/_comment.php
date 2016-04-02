@@ -25,7 +25,7 @@ use yii\widgets\ActiveForm;
 
     <?php if($comments) foreach ($comments as $comment): ?>
         <div class="comment">
-            <?= Html::img('/ss/basic/web/img/ava.jpg    ', ['alt' => '...', 'class' => 'comment-img'] );?>
+            <?= Html::img('/ctour/web/img/ava.jpg    ', ['alt' => '...', 'class' => 'comment-img'] );?>
             <?= Html::tag('div', Html::encode($comment['username']), ['class'=>'comment-username'])?>
             <?= Html::tag('div', Html::encode($comment['comment']), ['class'=>'comment-text'])?>
             <?= Html::tag('div', Html::encode($comment['date']), ['class'=>'comment-date'])?>

@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?php foreach ($tours as $tour): ?>
 
              <div class="col-sm-4 col-md-4">
-                    <div class="thumbnail">
+                    <div class="thumbnail tour-container">
                         <?= $this->render('_tour', [
                 			'tour' => $tour,
            				]) ?>
